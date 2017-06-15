@@ -5,10 +5,12 @@ using UnityEngine;
 public class interactionTest : MonoBehaviour {
 
 	public bool isLookedAt = false;
+	private GameObject Player;
+	public float triggerDistance = 5;
 
 	// Use this for initialization
 	void Start () {
-		
+		Player = GameObject.Find ("Player");
 	}
 	
 	// Update is called once per frame
@@ -19,7 +21,10 @@ public class interactionTest : MonoBehaviour {
 	}
 
 	public void LookChange() {
-		isLookedAt = !isLookedAt;
+		float theDist = Vector3.Distance (Player.transform.position, transform.position);
+		Debug.Log (theDist);
+		if(theDist < triggerDistance)
+			isLookedAt = !isLookedAt;
 	}
 
 }
