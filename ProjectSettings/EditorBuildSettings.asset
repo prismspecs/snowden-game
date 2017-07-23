@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: assets/Scenes/park.unity
-    guid: 24f53072e277546dc84e6b7ce0269358
-  - enabled: 1
-    path: assets/Scenes/Snowden-Test.unity
+    path: Assets/Scenes/Snowden-Test.unity
     guid: bb36d2905dc634f1c9eecb35beecaca8
+  - enabled: 1
+    path: Assets/Scenes/park.unity
+    guid: b762cbb5be1bd4975ab62cb097b59cdb
