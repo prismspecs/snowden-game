@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.29602176, g: 0.2457422, b: 0.23109636, a: 1}
+  m_IndirectSpecularColor: {r: 0.33172664, g: 0.27533612, b: 0.26008102, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -638,7 +638,7 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 01c8e84fbb4334389b4f05bceede9433, type: 2}
-  m_TreeDistance: 5000
+  m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
@@ -946,7 +946,7 @@ Prefab:
     - target: {fileID: 224180861789425786, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.5
       objectReference: {fileID: 0}
     - target: {fileID: 224180861789425786, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -956,7 +956,7 @@ Prefab:
     - target: {fileID: 224180861789425786, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 224345733139948726, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -981,7 +981,7 @@ Prefab:
     - target: {fileID: 224147313912916100, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -39
       objectReference: {fileID: 0}
     - target: {fileID: 224147313912916100, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -991,7 +991,7 @@ Prefab:
     - target: {fileID: 224147313912916100, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 224257630112635732, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -1016,7 +1016,7 @@ Prefab:
     - target: {fileID: 224375386211453890, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -37.5
       objectReference: {fileID: 0}
     - target: {fileID: 224375386211453890, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -1026,7 +1026,7 @@ Prefab:
     - target: {fileID: 224375386211453890, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 224569193018584772, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -1051,7 +1051,7 @@ Prefab:
     - target: {fileID: 224418404237048982, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -39
       objectReference: {fileID: 0}
     - target: {fileID: 224418404237048982, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
@@ -1061,7 +1061,7 @@ Prefab:
     - target: {fileID: 224418404237048982, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 224062084003125524, guid: 7d13e56613e6144d5a4fd85fef4767b2,
         type: 2}
