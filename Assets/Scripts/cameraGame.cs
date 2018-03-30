@@ -42,10 +42,6 @@ public class cameraGame : MonoBehaviour {
 		}
 	}
 
-	void OnMouseEnter() {
-		Debug.Log("!");
-	}
-
 	public void LookChange() {
 		isLookedAt = !isLookedAt;
 		startedLooking = Time.time;
